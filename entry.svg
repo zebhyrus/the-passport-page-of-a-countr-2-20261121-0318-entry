@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e6e2"/><stop offset="1" stop-color="#a9c6c2"/>
+    </linearGradient>
+  </defs>
+  <!-- outer desk -->
+  <rect width="1024" height="1024" fill="#22303a"/>
+  <rect x="28" y="28" width="968" height="968" fill="#f6f1e3" stroke="#8a7a4d" stroke-width="2"/>
+  <!-- centre gutter -->
+  <rect x="510" y="28" width="4" height="968" fill="#d8cdb2"/>
+  <line x1="512" y1="28" x2="512" y2="996" stroke="#b9ab85" stroke-width="1"/>
+
+  <!-- ============ LEFT PAGE : DATA PAGE ============ -->
+  <text x="270" y="62" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-weight="bold" letter-spacing="3" fill="#1d4a55">REPUBLIC OF VELLORIA</text>
+  <text x="270" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="6" fill="#8a7a4d">PASSPORT &#183; PASEPOR</text>
+  <line x1="55" y1="96" x2="485" y2="96" stroke="#8a7a4d" stroke-width="1.5"/>
+
+  <!-- emblem : lighthouse in a circle -->
+  <g transform="translate(448,130)">
+    <circle r="30" fill="none" stroke="#1d4a55" stroke-width="2"/>
+    <circle r="24" fill="#eaf2ef" stroke="#1d4a55" stroke-width="1"/>
+    <path d="M-6,20 L-4,-8 L4,-8 L6,20 Z" fill="#1d4a55"/>
+    <rect x="-7" y="-14" width="14" height="6" fill="#c99a2e"/>
+    <path d="M-14,-11 L-24,-16 M14,-11 L24,-16" stroke="#c99a2e" stroke-width="2"/>
+    <path d="M-20,24 Q-10,19 0,24 Q10,19 20,24" fill="none" stroke="#1d4a55" stroke-width="1.5"/>
+    <path d="M-20,28 Q-10,23 0,28 Q10,23 20,28" fill="none" stroke="#1d4a55" stroke-width="1.5"/>
+  </g>
+  <!-- portrait box -->
+  <rect x="55" y="115" width="135" height="180" fill="url(#sea)" stroke="#1d4a55" stroke-width="2"/>
+  <g>
+    <!-- shoulders / coat -->
+    <path d="M62,295 L62,268 C62,244 88,230 125,230 C162,230 188,244 188,268 L188,295 Z" fill="#2a5a66"/>
+    <path d="M112,232 L125,252 L138,232 L138,295 L112,295 Z" fill="#f6f1e3"/>
+    <path d="M112,232 L125,252 L118,232 Z" fill="#c99a2e"/>
+    <path d="M138,232 L125,252 L132,232 Z" fill="#c99a2e"/>
+    <!-- neck + head -->
+    <rect x="116" y="212" width="18" height="22" fill="#e0aa7e"/>
+    <circle cx="125" cy="186" r="32" fill="#e8b98d"/>
+    <!-- hair : dark, pulled back, bun -->
+    <path d="M93,186 C93,158 108,150 125,150 C142,150 157,158 157,186 C157,176 150,162 140,160 C130,158 110,160 103,170 C98,176 95,180 93,186 Z" fill="#3a2a1c"/>
+    <circle cx="125" cy="146" r="11" fill="#3a2a1c"/>
+    <!-- simple features -->
+    <circle cx="113" cy="188" r="2.5" fill="#222"/>
+    <circle cx="137" cy="188" r="2.5" fill="#222"/>
+    <path d="M108,180 Q113,177 118,180" fill="none" stroke="#5a3a22" stroke-width="1.5"/>
+    <path d="M132,180 Q137,177 142,180" fill="none" stroke="#5a3a22" stroke-width="1.5"/>
+    <path d="M123,192 L121,200 L127,200" fill="none" stroke="#c98d5f" stroke-width="1.5"/>
+    <path d="M117,208 Q125,212 133,208" fill="none" stroke="#7a3a2a" stroke-width="1.8"/>
+  </g>
+  <text x="122" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" letter-spacing="1" fill="#555">PORTRAIT &#183; 2023</text>
+
+  <!-- data fields, right of portrait -->
+  <g font-family="Arial, sans-serif" fill="#1a1a1a">
+    <text x="215" y="132" font-size="9" letter-spacing="1" fill="#777">SURNAME / NAMA KELUARGA</text>
+    <text x="215" y="152" font-size="17" font-weight="bold">ALDEN</text>
+    <text x="215" y="176" font-size="9" letter-spacing="1" fill="#777">GIVEN NAMES / NAMA DEPAN</text>
+    <text x="215" y="196" font-size="17" font-weight="bold">MAREN SOLVIG</text>
+    <text x="215" y="220" font-size="9" letter-spacing="1" fill="#777">NATIONALITY</text>
+    <text x="215" y="240" font-size="15" font-weight="bold">VELLORIAN</text>
+    <text x="380" y="220" font-size="9" letter-spacing="1" fill="#777">SEX</text>
+    <text x="380" y="240" font-size="15" font-weight="bold">F</text>
+    <text x="215" y="264" font-size="9" letter-spacing="1" fill="#777">DATE OF BIRTH</text>
+    <text x="215" y="284" font-size="15" font-weight="bold">14 JUN 1994</text>
+    <text x="380" y="264" font-size="9" letter-spacing="1" fill="#777">PLACE OF BIRTH</text>
+    <text x="380" y="284" font-size="15" font-weight="bold">ALDHAVEN</text>
+  </g>
+  <line x1="55" y1="330" x2="485" y2="330" stroke="#c9bfa0" stroke-width="1"/>
+
+  <!-- second block of data -->
+  <g font-family="Arial, sans-serif" fill="#1a1a1a">
+    <text x="55" y="356" font-size="9" letter-spacing="1" fill="#777">DOCUMENT No. / NOMOR DOKUMEN</text>
+    <text x="55" y="378" font-size="17" font-weight="bold" letter-spacing="1">VLR847291</text>
+    <text x="300" y="356" font-size="9" letter-spacing="1" fill="#777">TYPE / JENIS</text>
+    <text x="300" y="378" font-size="17" font-weight="bold">P</text>
+    <text x="380" y="356" font-size="9" letter-spacing="1" fill="#777">CODE</text>
+    <text x="380" y="378" font-size="17" font-weight="bold">VLR</text>
+
+    <text x="55" y="410" font-size="9" letter-spacing="1" fill="#777">DATE OF ISSUE / TANGGAL TERBIT</text>
+    <text x="55" y="432" font-size="16" font-weight="bold">12 MAR 2023</text>
+    <text x="300" y="410" font-size="9" letter-spacing="1" fill="#777">DATE OF EXPIRY / BERLAKU S.D.</text>
+    <text x="300" y="432" font-size="16" font-weight="bold">12 MAR 2033</text>
+
+    <text x="55" y="464" font-size="9" letter-spacing="1" fill="#777">ISSUING AUTHORITY / OTORITAS PENERBIT</text>
+    <text x="55" y="486" font-size="15" font-weight="bold">TIDE OFFICE &#8212; ALDHAVEN</text>
+    <text x="55" y="510" font-size="11" fill="#444">Causeway crossings are recorded by the Tide Office.</text>
+
+    <text x="55" y="548" font-size="9" letter-spacing="1" fill="#777">HOLDER&#8217;S SIGNATURE / TANDA TANGAN</text>
+    <text x="60" y="580" font-family="Georgia, serif" font-style="italic" font-size="24" fill="#1d3a44">Maren Alden</text>
+    <line x1="55" y1="590" x2="300" y2="590" stroke="#777" stroke-width="1"/>
+    <text x="330" y="548" font-size="9" letter-spacing="1" fill="#777">OCCUPATION</text>
+    <text x="330" y="572" font-size="14" font-weight="bold">LIGHTKEEPER</text>
+    <text x="330" y="590" font-size="11" fill="#444">North Light, Aldhaven</text>
+  </g>
+
+  <!-- guilloche strip -->
+  <g stroke="#c99a2e" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M55,625 Q150,615 270,625 T485,625"/>
+    <path d="M55,633 Q150,623 270,633 T485,633"/>
+  </g>
+  <text x="270" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="11" letter-spacing="2" fill="#1d4a55">THIS PASSPORT IS THE PROPERTY OF THE REPUBLIC OF VELLORIA</text>
+  <text x="270" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">The holder is a citizen of Velloria, a tide-bound republic of the northern coast.</text>
+
+  <!-- MRZ -->
+  <rect x="55" y="700" width="430" height="66" fill="#fff" stroke="#999" stroke-width="1"/>
+  <g font-family="'Courier New', monospace" font-size="13" fill="#111" letter-spacing="0">
+    <text x="62" y="728">P&lt;VLRALDEN&lt;&lt;MAREN&lt;SOLVIG&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</text>
+    <text x="62" y="752">VLR8472915VLR9406145F3303122&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;02</text>
+  </g>
+  <text x="270" y="790" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">VLR 847291 &#183; BORN 14 JUN 1994 &#183; EXPIRES 12 MAR 2033</text>
+
+  <!-- left page footer : neighbours note -->
+  <rect x="55" y="820" width="430" height="150" fill="#eef0e6" stroke="#b9ab85" stroke-width="1"/>
+  <text x="70" y="846" font-family="Georgia, serif" font-size="12" font-weight="bold" letter-spacing="1" fill="#1d4a55">NEIGHBOURS OF VELLORIA</text>
+  <text x="70" y="868" font-family="Arial, sans-serif" font-size="12" fill="#333">North &#8212; Drenmark (Port Haldor) &#183; East &#8212; Solvarre (Vennport)</text>
+  <text x="70" y="888" font-family="Arial, sans-serif" font-size="12" fill="#333">South-west &#8212; Kessaly (Tarnwick) &#183; West &#8212; the open sea</text>
+  <text x="70" y="912" font-family="Arial, sans-serif" font-size="11" fill="#555">Stamps on the opposite page are from these three</text>
+  <text x="70" y="928" font-family="Arial, sans-serif" font-size="11" fill="#555">neighbours only. No other border touches Velloria.</text>
+  <text x="70" y="952" font-family="Arial, sans-serif" font-size="11" font-style="italic" fill="#1d4a55">Capital: Aldhaven &#183; Language: Vellorian &#183; Currency: korun</text>
+
+  <!-- ============ RIGHT PAGE : STAMPS ============ -->
+  <text x="754" y="62" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" letter-spacing="3" fill="#1d4a55">VISAS &#38; STAMPS</text>
+  <text x="754" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#777">TIDE OFFICE &#8212; ALDHAVEN &#183; PAGES 12&#8211;13</text>
+  <line x1="540" y1="96" x2="968" y2="96" stroke="#8a7a4d" stroke-width="1.5"/>
+
+  <!-- stamp helper: each stamp is a bordered box with a round seal -->
+  <!-- Row 1 -->
+  <g>
+    <rect x="540" y="112" width="200" height="148" fill="#fff" stroke="#7a2e2e" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="640" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7a2e2e">DRENMARK</text>
+    <text x="640" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#7a2e2e">ARRIVAL</text>
+    <text x="640" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Port Haldor</text>
+    <text x="640" y="208" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">03 APR 2023</text>
+    <text x="640" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">No. D-1184 &#183; Ferry Vela</text>
+    <circle cx="716" cy="132" r="16" fill="none" stroke="#7a2e2e" stroke-width="1.5"/>
+    <text x="716" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a2e2e">D</text>
+  </g>
+  <g>
+    <rect x="756" y="112" width="200" height="148" fill="#fff" stroke="#7a2e2e" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="856" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7a2e2e">DRENMARK</text>
+    <text x="856" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#7a2e2e">DEPARTURE</text>
+    <text x="856" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Port Haldor</text>
+    <text x="856" y="208" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">09 APR 2023</text>
+    <text x="856" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">No. D-1207 &#183; Ferry Vela</text>
+    <circle cx="932" cy="132" r="16" fill="none" stroke="#7a2e2e" stroke-width="1.5"/>
+    <text x="932" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a2e2e">D</text>
+  </g>
+  <!-- Row 2 -->
+  <g>
+    <rect x="540" y="274" width="200" height="148" fill="#fff" stroke="#1d4a6e" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="640" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1d4a6e">SOLVARRE</text>
+    <text x="640" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#1d4a6e">ARRIVAL</text>
+    <text x="640" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Vennport</text>
+    <text x="640" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">12 APR 2023</text>
+    <text x="640" y="394" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">No. S-0441 &#183; Rail, Venn Line</text>
+    <circle cx="716" cy="294" r="16" fill="none" stroke="#1d4a6e" stroke-width="1.5"/>
+    <text x="716" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#1d4a6e">S</text>
+  </g>
+  <g>
+    <rect x="756" y="274" width="200" height="148" fill="#fff" stroke="#1d4a6e" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="856" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1d4a6e">SOLVARRE</text>
+    <text x="856" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#1d4a6e">DEPARTURE</text>
+    <text x="856" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Vennport</text>
+    <text x="856" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">20 APR 2023</text>
+    <text x="856" y="394" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">No. S-0490 &#183; Rail, Venn Line</text>
+    <circle cx="932" cy="294" r="16" fill="none" stroke="#1d4a6e" stroke-width="1.5"/>
+    <text x="932" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#1d4a6e">S</text>
+  </g>
+  <!-- Row 3 -->
+  <g>
+    <rect x="540" y="436" width="200" height="148" fill="#fff" stroke="#4a6e2e" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="640" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4a6e2e">KESSALY</text>
+    <text x="640" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#4a6e2e">ARRIVAL</text>
+    <text x="640" y="504" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Tarnwick</text>
+    <text x="640" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">05 MAY 2023</text>
+    <text x="640" y="556" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">No. K-0772 &#183; Causeway, low tide</text>
+    <circle cx="716" cy="456" r="16" fill="none" stroke="#4a6e2e" stroke-width="1.5"/>
+    <text x="716" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#4a6e2e">K</text>
+  </g>
+  <g>
+    <rect x="756" y="436" width="200" height="148" fill="#fff" stroke="#4a6e2e" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="856" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4a6e2e">KESSALY</text>
+    <text x="856" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="2" fill="#4a6e2e">DEPARTURE</text>
+    <text x="856" y="504" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Tarnwick</text>
+    <text x="856" y="532" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">11 MAY 2023</text>
+    <text x="856" y="556" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#777">No. K-0819 &#183; Causeway, low tide</text>
+    <circle cx="932" cy="456" r="16" fill="none" stroke="#4a6e2e" stroke-width="1.5"/>
+    <text x="932" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#4a6e2e">K</text>
+  </g>
+
+  <!-- return home strip -->
+  <rect x="540" y="600" width="416" height="52" fill="#eaf2ef" stroke="#1d4a55" stroke-width="2"/>
+  <text x="556" y="622" font-family="Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="1" fill="#1d4a55">VELLORIA &#8212; ARRIVAL</text>
+  <text x="556" y="642" font-family="Arial, sans-serif" font-size="12" fill="#333">Aldhaven &#183; Causeway, low tide</text>
+  <text x="940" y="632" text-anchor="end" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#222">12 MAY 2023</text>
+
+  <!-- TIDE PERMIT : the telling paperwork detail -->
+  <rect x="540" y="668" width="416" height="302" fill="#fff8e0" stroke="#8a7a4d" stroke-width="2"/>
+  <text x="748" y="696" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" letter-spacing="2" fill="#1d4a55">TIDE PERMIT &#8212; CAUSEWAY</text>
+  <line x1="560" y1="708" x2="936" y2="708" stroke="#8a7a4d" stroke-width="1"/>
+  <text x="560" y="732" font-family="Arial, sans-serif" font-size="12.5" fill="#222">Holder may cross the Aldhaven Causeway only</text>
+  <text x="560" y="752" font-family="Arial, sans-serif" font-size="12.5" fill="#222">at low tide, within two hours either side of</text>
+  <text x="560" y="772" font-family="Arial, sans-serif" font-size="12.5" fill="#222">low water. Crossings are entered by hand</text>
+  <text x="560" y="792" font-family="Arial, sans-serif" font-size="12.5" fill="#222">in the Tide Office log; a missed tide means</text>
+  <text x="560" y="812" font-family="Arial, sans-serif" font-size="12.5" fill="#222">waiting on the far shore until the next one.</text>
+  <text x="560" y="838" font-family="Arial, sans-serif" font-size="11" font-style="italic" fill="#555">Velloria is reached by the tide, not by the clock.</text>
+  <g>
+    <rect x="560" y="856" width="190" height="52" fill="none" stroke="#7a2e2e" stroke-width="2" transform="rotate(-3 655 882)"/>
+    <text x="655" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a2e2e" transform="rotate(-3 655 882)">TIDE FEE PAID</text>
+    <text x="655" y="898" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a2e2e" transform="rotate(-3 655 882)">4 KORUN</text>
+  </g>
+  <text x="780" y="878" font-family="Arial, sans-serif" font-size="11" fill="#333">Permit No. TP-2291</text>
+  <text x="780" y="898" font-family="Arial, sans-serif" font-size="11" fill="#333">Issued 12 MAR 2023</text>
+  <text x="748" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#888">Tide Office, Aldhaven &#183; North Light keeper on duty</text>
+  <text x="748" y="956" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#888">Low water, 12 May 2023: 06:40 &#183; 19:05</text>
+</svg>
